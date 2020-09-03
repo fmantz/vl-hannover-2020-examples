@@ -3,9 +3,9 @@ package de.fmantz.hannover.strings;
 public class ReverseString {
 
     static String[] Data = {
-      "E.T.",                     //0
-      "Sie nannten in Mücke",     //1
-      "Sie nannten in M\u00FCcke",//2, Ist wirklich das gleiche wie oben drüber (siehe Vergleiche unten)
+      "E.T.",                      //0
+      "Sie nannten ihn Mücke",     //1
+      "Sie nannten ihn M\u00FCcke",//2, Ist wirklich das gleiche wie oben drüber (siehe Vergleiche unten)
       "Les Misérables",           //3
       "Les Mise\u0301rables",     //4 Ist wirklich das gleiche wie oben drüber (siehe Vergleiche unten)
       "Les Misérables",           //5 Ist eine andere Codierung wie die beiden oben drüber (ohne Bindecharacter!)
