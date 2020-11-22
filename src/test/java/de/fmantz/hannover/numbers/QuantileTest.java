@@ -1,6 +1,5 @@
 package de.fmantz.hannover.numbers;
 
-import de.fmantz.hannover.numbers.Quantile;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
