@@ -19,8 +19,12 @@ public class ReverseString {
             System.out.println("\tREVERSE:\t" + reverse(in)
                     + "\tODER:\t" + new StringBuilder(in).reverse());
         }
+        
+        Object[] test = new String[10];
+        test[4] = new Double(1);
+
         System.out.println();
-        System.out.println("D1 == D2: " + Data[1].equals(Data[2])); //check: "Sie nannten in Mücke"
+        System.out.println("D1 == D2: " + Data[1].equals(Data[2])); //check: "Sie nannten ihn Mücke"
         System.out.println("D3 == D4: " + Data[3].equals(Data[4])); //check: "Les Misérables"
         System.out.println("D3 == D5: " + Data[3].equals(Data[5])); //check: "Les Misérables mit "eu0301" und 'u00E9'
         System.out.println("D5 == D6: " + Data[5].equals(Data[6]));
